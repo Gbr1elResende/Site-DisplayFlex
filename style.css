@@ -101,21 +101,21 @@ main{
     letter-spacing: .1em;
     border: 1px solid transparent;
 }
-.imagens{
+#imagens{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     background-color: black;
     row-gap: 6px;
 }
-.imagens div{
+#imagens div{
     width: 33%;
     height: 300px;
     overflow: hidden;
     position: relative;
 }
 
-.imagens img{
+#imagens img{
     width: 100%;
     height: 300px;
     object-fit: cover;
@@ -182,4 +182,135 @@ main{
     font-family: "quicksand";
     font-size: 20px;
 }
+/* //////////////////////////////////////////// */
+#AllBiography {
+    background-color: #1a1a1a;
+    display: flex; 
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 290.89px;
+}
+
+#Person3 {
+    width: 35%;
+    height: auto;
+    margin-top: 5%;
+}
+
+#txt3 {
+    font-size: 60px;
+    color: white;
+    margin-top: 110px;
+    padding-top: 1%;
+    font-family: "Oswald";
+}
+
+#biography {
+    justify-content: center;
+}
+
+.Titulo {
+    color: white;
+    font-size: 30px;
+    margin-top: 4%;
+    font-family: "Oswald";
+}
+
+.texto {
+    color: rgba(134, 134, 134, 0.925);
+    font-size: 15px;
+    width: 65%;
+    margin-top: 1%;
+    font-family: "quicksand";
+}
+
+#check {
+    width: 2.5%;
+    height: auto;
+    margin-right: 1%;
+}
+
+ul{
+    padding: 0px;
+}
+.li {
+    color: rgba(134, 134, 134, 0.925);
+    font-size: 15px;
+    font-family: "quicksand";
+}
+/* //////////////////////////////////////////////// */
+#Blog {
+    margin-left: 30%;
     
+}
+
+#blog {
+    color: white;
+    font-family: "oswald";
+    font-size: 60px;
+    text-align: start;
+    margin-bottom: 4%;
+    margin-top: 6%;
+}
+
+#blog1 {
+    width: 250px;
+    height: 200px;
+    padding-right: 2.5%;
+}
+/* ///////////////////////////////////////////// */
+#contato {
+    background-color: #1a1a1a;
+    display: flex; 
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 30%;
+}
+
+#tcontato {
+    font-size: 64px;
+    color: white;
+    font-family: "oswald";
+    margin-top: 8%;
+    margin-bottom: 4%;
+}
+.txtcontato {
+    font-size: 16px;
+    color: white;
+    font-family: "quicksand";
+}
+.line {
+    color: #808080;
+    margin-bottom: 3.5%;
+}
+.tctt {
+    color: rgba(134, 134, 134, 0.925);
+    font-size: 16px;
+    margin-top: 1.3%;
+    font-family: "quicksand";
+    margin-bottom: 10%;
+}
+#btn2 {
+    color: white;
+    font-size: 14px;
+    background-color:#df0e62;
+    border-color: #df0e62;
+    border-radius: 25px;
+    margin-top: 1%;
+    width: 163px;
+    height: 53px;
+    text-align: center;
+    justify-content: center;
+    font-family: "quicksand";
+    font-weight: bold;
+    margin-bottom: 10%;
+    border: 1px solid transparent;
+}
+#tcopyr {
+    color: white;
+    font-size: 16px;
+    font-family: "quicksand";
+    margin-top: 2%;
+    margin-bottom: 4%;
+    text-align: center;
+}
